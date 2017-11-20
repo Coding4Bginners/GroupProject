@@ -1,0 +1,75 @@
+h1, h2, h3, h4, h5, h6 {
+    color: #000000; 
+    text-align: left; 
+    font-family: 'open sans', sans-serif; 
+    font-weight: bold;}
+p {
+    color: #1C1F18; 
+    text-align: left; 
+    font-family: 'Open Sans', sans-serif;}
+    
+    /* links set to hed color, no underline */
+a:link, a:visited, a:link:active, a:visited:active {
+    color: #0381F2;
+    text-decoration: none;
+   }
+
+/* css for individual pages below */
+
+#frontpage {
+    background-image: url("/images/aa_typhoon-1650677_640.jpg");}
+    
+#pagesecond {background-color: #1f7a1f;}
+
+#pagethird {background-color: #e6b800;}
+.boxone{
+    border-style:solid;
+    height:300px;
+    width:900px;
+    background-color:aliceblue;}
+  
+ .boxtwo{
+     border-style:solid;
+     height:300px;
+     width:900px;
+     background-color:green;}
+  
+  .boxthree{
+      border-style:solid;
+      height:300px;
+      width:900px;
+      background-color:brown;}
+      
+  
+   
+}
+#pagefourth {background-color: #80d4ff;}
+#pagefifth {background-color:grey;}
+.boxone{
+    border-style:solid;
+    height:450px;
+    width:900px;
+    background-color:greenyellow;}
+    h1{font-family: 'Palatino Linotype', Palatino, serif;}
+    p{font-family: Helvetica, Arial, sans-serif;}
+}
+
+#destruction {height: 111px; width: 222px; background-color: white;} 
+
+#boats {border-style: solid; flex-direction: column ; vertical-align: center ; background-color: #800000; width:600px; height: 450px; padding: 22px;} 
+#katrina {border-style: solid; background-color: #809fff; width:452px; height: 300px; padding: 22px;}
+#tornado {border-style: solid, background-color: #004d00: width 400px; height: 600px; pading: 22px; }
+
+
+/* css for header and footer below */
+
+.header {display:flex; justify-content:flex-end;}
+.headerlinks {display:flex; margin-right:0px; margin-left:20px; font-family:'open sans', serif; font-size: 22px}
+    /*header is a class for a div formatted here as a flexbox, 
+      and headerlinks is a class for anchor tags within that flexbox, 
+      both for the top of the screen. 
+      The links should space themselves out to the left of the top of the screen.*/
+  
+#footer {font-size: 10px; line-height: 1; text-align: center;} 
+    /*footer is an ID for the bottom of the screen, small and centered. except it won't center. What am I missing here?*/
+
