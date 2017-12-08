@@ -1,5 +1,5 @@
-h1, h2, h3, h4, h5, h6 {
-    color: #000000; 
+h1, h2, h3, h4, h6 {
+    color: #2f4f4f; 
     text-align: left; 
     font-family: 'open sans', sans-serif; 
     font-weight: bold;}
@@ -10,61 +10,46 @@ p {
     
     /* links set to hed color, no underline */
 a:link, a:visited, a:link:active, a:visited:active {
-    color: #0381F2;
+    color: #00165B;
     text-decoration: none;
    }
 
 /* css for individual pages below */
 
-#frontpage {
-    background-image: url("/images/aa_typhoon-1650677_640.jpg");}
-    
-#pagesecond {background-color: #1f7a1f;}
+/* Kristof: Background image and photo CSS below */
 
-#pagethird {background-color: #e6b800;}
-.boxone{
-    border-style:solid;
-    height:300px;
-    width:900px;
-    background-color:aliceblue;}
-  
- .boxtwo{
-     border-style:solid;
-     height:300px;
-     width:900px;
-     background-color:green;}
-  
-  .boxthree{
-      border-style:solid;
-      height:300px;
-      width:900px;
-      background-color:brown;}
-      
-  
-   
-}
-#pagefourth {background-color: #80d4ff;}
-#pagefifth {background-color:grey;}
-.boxone{
-    border-style:solid;
-    height:450px;
-    width:900px;
-    background-color:greenyellow;}
-    h1{font-family: 'Palatino Linotype', Palatino, serif;}
-    p{font-family: Helvetica, Arial, sans-serif;}
-}
+#frontpage {background-image: url("images/aa_typhoon-1650677_640_lightened.jpg");}
+#pagesecond {background-image: url("images/aa_typhoon-1650677_640_lightened.jpg");}
+#pagethird {background-image: url("images/aa_typhoon-1650677_640_lightened.jpg");}
+#pagefourth {background-image: url("images/aa_typhoon-1650677_640_lightened.jpg");}
+#pagefive {background-image: url("images/aa_typhoon-1650677_640_lightened.jpg");}
 
-#destruction {height: 111px; width: 222px; background-color: white;} 
+/* index */
+#destruction {width: 100%;} 
 
-#boats {border-style: solid; flex-direction: column ; vertical-align: center ; background-color: #800000; width:600px; height: 450px; padding: 22px;} 
+/* pg 2 - hurricanes */
+#boats {width: 700px;} 
+
+/* ? cruft? */
 #katrina {border-style: solid; background-color: #809fff; width:452px; height: 300px; padding: 22px;}
-#tornado {border-style: solid, background-color: #004d00: width 400px; height: 600px; pading: 22px; }
+
+/* PG 4, all photos */
+.tornado {width: 700px}
+
+
+/* Mary: Quiz CSS below*/
+
+.boxone{
+    width:900px;
+    background-color:slategray;}
+  
+h5{color:slategray}
 
 
 /* css for header and footer below */
 
 .header {display:flex; justify-content:flex-end;}
-.headerlinks {display:flex; margin-right:0px; margin-left:20px; font-family:'open sans', serif; font-size: 22px}
+.headerlinks {display:flex; margin-right:0px; margin-left:20px; font-family:'open sans', serif; font-size: 12px}
     /*header is a class for a div formatted here as a flexbox, 
       and headerlinks is a class for anchor tags within that flexbox, 
       both for the top of the screen. 
