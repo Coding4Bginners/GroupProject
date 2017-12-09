@@ -28,13 +28,10 @@ a:link, a:visited, a:link:active, a:visited:active {
 #destruction {width: 100%;} 
 
 /* pg 2 - hurricanes */
-#boats {width: 700px;} 
-
-/* ? cruft? */
-#katrina {border-style: solid; background-color: #809fff; width:452px; height: 300px; padding: 22px;}
+#boats {width: 100%;} 
 
 /* PG 4, all photos */
-.tornado {width: 700px}
+.tornado {width: 100%}
 
 
 /* Mary: Quiz CSS below*/
